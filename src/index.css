@@ -14,7 +14,7 @@ header {
   animation-duration: 1s;
   background-image: url(./assets/images/header-background.jpg);
   background-repeat: no-repeat;
-  background-color: rgba(82, 140, 163, 0.9);
+  background-color: rgb(255, 255, 255);
   background-size: 100%;
   height: 780px;
   width: 100%;
