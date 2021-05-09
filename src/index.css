@@ -27,7 +27,7 @@ header {
 .main-content {
   box-shadow: white 0px 0px 11px;
   background-color: #fff;
-  height: 1650px;
+  height: 2180px;
   width: 100%;
   position: relative;
   margin-top: 755px;
@@ -166,6 +166,34 @@ footer a {
   color: rgba(255, 255, 255, 1);
 }
 
+.headphones-img-description {
+  animation-name: headphones-description-appearing;
+  animation-duration: 0.3s;
+  background-size: 110%;
+  background-image: linear-gradient(rgba(82, 140, 163, 0.8), rgba(82, 140, 163, 0.8)), url(./assets/images/headphones.jpg);
+}
+
+.headphones-img {
+  animation-name: headphones-description-disappearing;
+  background-size: cover;
+  animation-duration: 0.4s;
+  background-image: linear-gradient(rgba(82, 140, 163, 0), rgba(82, 140, 163, 0)), url(./assets/images/headphones.jpg);
+}
+
+.engineer-img-description {
+  animation-name: engineer-description-appearing;
+  animation-duration: 0.3s;
+  background-size: 110%;
+  background-image: linear-gradient(rgba(82, 140, 163, 0.8), rgba(82, 140, 163, 0.8)), url(./assets/images/engineer.jpg);
+}
+
+.engineer-img {
+  animation-name: engineer-description-disappearing;
+  background-size: cover;
+  animation-duration: 0.4s;
+  background-image: linear-gradient(rgba(82, 140, 163, 0), rgba(82, 140, 163, 0)), url(./assets/images/engineer.jpg);
+}
+
 .vending-img-description {
   animation-name: vending-description-appearing;
   animation-duration: 0.3s;
@@ -222,6 +250,8 @@ footer a {
   background-image: linear-gradient(rgba(82, 140, 163, 0), rgba(82, 140, 163, 0)), url(./assets/images/vacation-management.jpg);
 }
 
+.headphones-img-description .d-none,
+.engineer-img-description .d-none,
 .vending-img-description .d-none,
 .document-editing-img-description .d-none,
 .car-management-img-description .d-none,
@@ -231,6 +261,8 @@ footer a {
   animation-duration: 0.3s;
 }
 
+.headphones-img .d-none,
+.engineer-img .d-none,
 .vending-img .d-none,
 .document-editing-img .d-none,
 .car-management-img .d-none,
@@ -279,6 +311,190 @@ footer a {
   to {
     color: rgba(255, 255, 255, 0);
     background-size: 100%;
+  }
+}
+
+@keyframes headphones-description-appearing {
+  0% {
+    color: rgba(255, 255, 255, 0);
+    background-size: 100%;
+    background-image: linear-gradient(rgba(82, 140, 163, 0), rgba(82, 140, 163, 0)), url(./assets/images/headphones.jpg);
+  }
+
+  12% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.1), rgba(82, 140, 163, 0.1)), url(./assets/images/headphones.jpg);
+  }
+
+  24% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.2), rgba(82, 140, 163, 0.2)), url(./assets/images/headphones.jpg);
+  }
+
+  36% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.3), rgba(82, 140, 163, 0.3)), url(./assets/images/headphones.jpg);
+  }
+
+  48% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.4), rgba(82, 140, 163, 0.4)), url(./assets/images/headphones.jpg);
+  }
+
+  60% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.5), rgba(82, 140, 163, 0.5)), url(./assets/images/headphones.jpg);
+  }
+
+  72% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.6), rgba(82, 140, 163, 0.6)), url(./assets/images/headphones.jpg);
+  }
+
+  84% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.7), rgba(82, 140, 163, 0.7)), url(./assets/images/headphones.jpg);
+  }
+
+  96% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.78), rgba(82, 140, 163, 0.78)), url(./assets/images/headphones.jpg);
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 1);
+    background-size: 110%;
+    background-image: linear-gradient(rgba(82, 140, 163, 0.8), rgba(82, 140, 163, 0.8)), url(./assets/images/headphones.jpg);
+  }
+}
+
+@keyframes headphones-description-disappearing {
+  0% {
+    color: rgba(255, 255, 255, 1);
+    background-size: 110%;
+    background-image: linear-gradient(rgba(82, 140, 163, 0.8), rgba(82, 140, 163, 0.8)), url(./assets/images/headphones.jpg);
+  }
+
+  12% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.7), rgba(82, 140, 163, 0.7)), url(./assets/images/headphones.jpg);
+  }
+
+  24% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.6), rgba(82, 140, 163, 0.6)), url(./assets/images/headphones.jpg);
+  }
+
+  36% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.5), rgba(82, 140, 163, 0.5)), url(./assets/images/headphones.jpg);
+  }
+
+  48% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.4), rgba(82, 140, 163, 0.4)), url(./assets/images/headphones.jpg);
+  }
+
+  60% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.3), rgba(82, 140, 163, 0.3)), url(./assets/images/headphones.jpg);
+  }
+
+  72% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.2), rgba(82, 140, 163, 0.2)), url(./assets/images/headphones.jpg);
+  }
+
+  84% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.1), rgba(82, 140, 163, 0.1)), url(./assets/images/headphones.jpg);
+  }
+
+  96% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.02), rgba(82, 140, 163, 0.02)), url(./assets/images/headphones.jpg);
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0);
+    background-size: 100%;
+    background-image: linear-gradient(rgba(82, 140, 163, 0), rgba(82, 140, 163, 0)), url(./assets/images/headphones.jpg);
+  }
+}
+
+@keyframes engineer-description-appearing {
+  0% {
+    color: rgba(255, 255, 255, 0);
+    background-size: 100%;
+    background-image: linear-gradient(rgba(82, 140, 163, 0), rgba(82, 140, 163, 0)), url(./assets/images/engineer.jpg);
+  }
+
+  12% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.1), rgba(82, 140, 163, 0.1)), url(./assets/images/engineer.jpg);
+  }
+
+  24% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.2), rgba(82, 140, 163, 0.2)), url(./assets/images/engineer.jpg);
+  }
+
+  36% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.3), rgba(82, 140, 163, 0.3)), url(./assets/images/engineer.jpg);
+  }
+
+  48% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.4), rgba(82, 140, 163, 0.4)), url(./assets/images/engineer.jpg);
+  }
+
+  60% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.5), rgba(82, 140, 163, 0.5)), url(./assets/images/engineer.jpg);
+  }
+
+  72% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.6), rgba(82, 140, 163, 0.6)), url(./assets/images/engineer.jpg);
+  }
+
+  84% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.7), rgba(82, 140, 163, 0.7)), url(./assets/images/engineer.jpg);
+  }
+
+  96% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.78), rgba(82, 140, 163, 0.78)), url(./assets/images/engineer.jpg);
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 1);
+    background-size: 110%;
+    background-image: linear-gradient(rgba(82, 140, 163, 0.8), rgba(82, 140, 163, 0.8)), url(./assets/images/engineer.jpg);
+  }
+}
+
+@keyframes engineer-description-disappearing {
+  0% {
+    color: rgba(255, 255, 255, 1);
+    background-size: 110%;
+    background-image: linear-gradient(rgba(82, 140, 163, 0.8), rgba(82, 140, 163, 0.8)), url(./assets/images/engineer.jpg);
+  }
+
+  12% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.7), rgba(82, 140, 163, 0.7)), url(./assets/images/engineer.jpg);
+  }
+
+  24% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.6), rgba(82, 140, 163, 0.6)), url(./assets/images/engineer.jpg);
+  }
+
+  36% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.5), rgba(82, 140, 163, 0.5)), url(./assets/images/engineer.jpg);
+  }
+
+  48% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.4), rgba(82, 140, 163, 0.4)), url(./assets/images/engineer.jpg);
+  }
+
+  60% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.3), rgba(82, 140, 163, 0.3)), url(./assets/images/engineer.jpg);
+  }
+
+  72% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.2), rgba(82, 140, 163, 0.2)), url(./assets/images/engineer.jpg);
+  }
+
+  84% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.1), rgba(82, 140, 163, 0.1)), url(./assets/images/engineer.jpg);
+  }
+
+  96% {
+    background-image: linear-gradient(rgba(82, 140, 163, 0.02), rgba(82, 140, 163, 0.02)), url(./assets/images/engineer.jpg);
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0);
+    background-size: 100%;
+    background-image: linear-gradient(rgba(82, 140, 163, 0), rgba(82, 140, 163, 0)), url(./assets/images/engineer.jpg);
   }
 }
 
@@ -656,7 +872,7 @@ footer a {
   }
 
   .main-content {
-    height: 1500px;
+    height: 1950px;
     margin-top: 700px;
   }
 
@@ -670,11 +886,11 @@ footer a {
   }
 
   .project-collection-container {
-    height: 75%;
+    height: 80%;
   }
 
   .overview-container {
-    height: 25%;
+    height: 20%;
   }
 }
 
@@ -685,8 +901,8 @@ footer a {
   }
 
   .main-content {
-    height: 1150px;
-    margin-top: 380px;
+    height: 1495px;
+    margin-top: 430px;
   }
 
   .project-collection {
@@ -770,7 +986,7 @@ footer a {
   }
 
   .main-content {
-    height: 1800px;
+    height: 2400px;
   }
 
   .main-content-text {
@@ -805,7 +1021,7 @@ footer a {
   }
 
   .main-content {
-    height: 1850px;
+    height: 2500px;
   }
   
   .overview {

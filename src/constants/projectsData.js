@@ -1,5 +1,23 @@
 export const projectsData = [
     {
+        title: 'Intelligent ecosystem for industrial plant',
+        description: `
+            Smart ecosystem built for the industrial plant
+            where each entity (machines, sensors, hardware, and software systems) processes and
+            notifies in real-time to maximize industrial plant’s production efficiency consistently. 
+        `,
+        imageClass: 'engineer-img',
+    },
+    {
+        title: 'Innovative platform for musicians',
+        description: `
+            The platform for musicians to find/extend their audience and increase popularity.
+            Platform analysts can offer users a range of tailor-made strategies to promote music.
+            It allows artists to daily monitor the impact of the campaign and having all critical information in one place.
+        `,
+        imageClass: 'headphones-img',
+    },
+    {
         title: 'Smart IoT management',
         description: `
             Web services, that allows users to view and manipulate with different data coming from IoT things,
