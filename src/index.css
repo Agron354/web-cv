@@ -116,6 +116,7 @@ footer a {
 }
 
 .main-content-text {
+  justify-content: center;
   color: #969696;
   font-family: Arial, Helvetica;
   font-size: 1.5rem;
