@@ -109,6 +109,7 @@ footer a {
 }
 
 .main-content-text-title {
+  justify-content: center;
   color: #434343;
   font-size: 3.5rem;
   line-height: 0.9em;
