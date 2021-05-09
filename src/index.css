@@ -27,7 +27,7 @@ header {
 .main-content {
   box-shadow: white 0px 0px 11px;
   background-color: #fff;
-  height: 2150px;
+  height: 2020px;
   width: 100%;
   position: relative;
   margin-top: 755px;
@@ -874,7 +874,7 @@ footer a {
   }
 
   .main-content {
-    height: 1950px;
+    height: 1850px;
     margin-top: 700px;
   }
 
@@ -903,7 +903,7 @@ footer a {
   }
 
   .main-content {
-    height: 1495px;
+    height: 1450px;
     margin-top: 430px;
   }
 
