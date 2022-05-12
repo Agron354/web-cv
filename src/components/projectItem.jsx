@@ -5,7 +5,7 @@ export function ProjectItem(props) {
 
     return (
         <div 
-            className={`col-5 col-xs-12 m-2 project-img justify-content-center ${props.imageClass}${descriptionIsVisible ? '-description' : ''}`}
+            className={`col-4 col-xs-12 m-2 project-img justify-content-center ${props.imageClass}${descriptionIsVisible ? '-description' : ''}`}
             onMouseOver={() => setDescriptionVisibility(true)} 
             onMouseLeave={() => setDescriptionVisibility(false)}>
             <div className='d-none container'>
