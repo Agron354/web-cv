@@ -38,7 +38,7 @@ export function MainContent() {
                             </div>
                             </span>
                             <span className='col-12 h-50 py-3 d-flex main-content-text'>
-                                I am a full stack web developer based in Orsha, near Vitebsk, Belarus.
+                                I am a full stack web developer based in Warsaw, Poland.
                                 I love books, journeys, programming, watching sunsets at sea, and <a href='https://lookslikeyouneediceland.com/' target='_blank' style={{display: 'contents'}}>screaming in Iceland</a>.
                             </span>
                         </div>
